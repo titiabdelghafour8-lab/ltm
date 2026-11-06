@@ -1,0 +1,2 @@
+# Scripts must keep LF endings, or "#!/usr/bin/env python3\r" fails on Linux.
+* text=auto eol=lf
