@@ -45,13 +45,17 @@ The Performance tab, captured with `tests/tui_driver.py` on Fedora 44 under WSL2
 ## Install
 
 ```bash
-git clone <this repository> ltm && cd ltm
+git clone https://github.com/titiabdelghafour8-lab/ltm.git && cd ltm
 sudo ./install.sh        # puts it in /usr/local/bin/ltm for everyone
 ```
 
 Use `./install.sh` without `sudo` to install it just for you, in `~/.local/bin/ltm`.
 You can also skip installing and run `python3 ltm.py`, or copy `ltm.py` to any
-machine. `./install.sh --uninstall` removes it.
+machine. `./install.sh --uninstall` removes it. To try it without cloning:
+
+```bash
+curl -fsSLO https://raw.githubusercontent.com/titiabdelghafour8-lab/ltm/main/ltm.py && python3 ltm.py
+```
 
 If Python is missing: `sudo apt install python3` (Debian, Ubuntu), `sudo dnf install python3`
 (Fedora, RHEL), `sudo pacman -S python` (Arch), `sudo apk add python3` (Alpine).
