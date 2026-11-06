@@ -166,3 +166,8 @@ cat /tmp/screens/perf.txt
 
 Measured on Fedora 44 (WSL2, 24 threads): one update of everything takes 8.7 ms with
 650 processes. The interface itself uses about 0.1% of one core while idle.
+
+## License
+
+MIT. See [LICENSE](LICENSE). You may use, copy, change and redistribute ltm, including
+commercially, as long as the copyright notice stays with it.

@@ -12,6 +12,9 @@ the standard library and reads /proc and /sys directly. Used when present:
 nvidia-smi (NVIDIA GPUs), systemctl (services, startup), pci.ids (GPU names).
 
 Run `ltm --help`, or press F1 inside the interface.
+
+Copyright (c) 2026 Abdelghafour Titi. MIT License: see LICENSE, or
+https://github.com/titiabdelghafour8-lab/ltm/blob/main/LICENSE
 """
 
 from __future__ import division, print_function
